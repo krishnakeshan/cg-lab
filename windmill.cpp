@@ -223,6 +223,13 @@ void myDisplay()
 
 int main(int argc, char *argv[])
 {
+    std::cout << "Project Name: Windmill Simulation" << std::endl;
+    std::cout << "Guide Name: Prof. Kiran Babu" << std::endl;
+    std::cout << "Student Names: Abhinab Mishra and Krishna Keshan" << std::endl;
+    std::cout << "Enter any key to start simulation: ";
+    char ch;
+    std::cin >> ch;
+    
     glutInit(&argc, argv);
     glutInitDisplayMode(GLUT_SINGLE | GLUT_RGB);
     glutInitWindowSize(640, 480);
